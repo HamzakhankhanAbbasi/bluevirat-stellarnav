@@ -1,0 +1,128 @@
+@media only screen and (max-width:1750px){
+	.catWrap {
+		width: 1425px;
+		padding: 40px 40px 0px 40px;
+	}
+	.catNav .catItems {
+		max-width: 165px;	
+	}
+}
+@media only screen and (max-width:1430px){
+
+	.catNav .catItems {
+		max-width: 155px;
+	}
+	.catWrap {
+		width: 1250px;
+		box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+		top: 46px;
+	}
+	.catNav .catItems {
+		max-width: 135px;
+	}
+
+}
+@media only screen and (max-width:1400px){
+	.bannerSlider .swiper-slide .textBox {
+		padding-left: 120px;
+	}
+	.bannerSlider .swiper-slide .textBox .desc {
+		max-width: 480px;
+	}
+	.bannerSlider .swiper-slide .textBox .topDesc {
+		font-size: 24px;
+		padding-bottom: 20px;
+	}
+	.bannerSlider .swiper-slide .textBox .heading {
+		font-size: 60px;
+	}
+	.catNav {
+		justify-content: center;
+	}
+
+	.custom-nav li {
+		padding: 10px 12px;
+	}
+	.sliderWrap .slideMover.prev {
+		left: 40%;
+		top: auto;
+		bottom: -75px;
+	}
+	.sliderWrap .slideMover.next {
+		right: 40%;
+		top: auto;
+		bottom: -75px;
+	}
+}
+@media only screen and (max-width:1350px){
+	.aboutText .imgBox {
+		position: relative;
+		max-width: 560px;
+	}
+	.aboutText .imgBox .absImg {
+		width: 200px;
+		height: 200px;
+		overflow: hidden;
+		position: absolute;
+		bottom: -35px;
+		right: -45px;
+	}
+	.index-sec-5 .leftSide .absBtn, .rightSide .absBtn {
+		height: 45px;
+	}
+	.index-sec-5 .rightSide .absBtn.type-2 {
+		bottom: 18px;
+	}
+}
+@media only screen and (max-width:1305px){
+	.catWrap {
+		top: 93px;
+	}
+}
+
+@media only screen and (max-width:1250px){
+	.aboutText .imgBox {
+		position: relative;
+		max-width: 510px;
+	}
+	.aboutText .imgBox .absImg {
+		width: 160px;
+		height: 160px;
+		bottom: -35px;
+		right: 20px;
+	}
+	.aboutText .imgBox .absImg img {
+		box-shadow: none;
+	}
+	.index-sec-9 {
+		padding: 40px 0px;
+	}
+	.footer-col-1 {
+		max-width: 100%;
+		text-align: center;
+	}
+	.footer-col .genDesc {
+		max-width: 600px;
+		margin: 0 auto;
+	}
+	.social-icons {
+		margin: 0 auto;
+		max-width: 180px;
+	}
+	.bannerSlider .swiper-slide .textBox .desc {
+		max-width: 350px;
+	}
+	.bannerSlider .swiper-slide {
+		padding: 100px 0px;
+	}
+	.catNav .catItems {
+		max-width: 100px;
+	}
+	.catWrap {
+		width: 1000px;
+	}
+	.catItems .heading {
+		font-size: 16px;
+		white-space: nowrap;
+	}
+}
